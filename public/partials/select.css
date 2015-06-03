@@ -1,0 +1,92 @@
+body { 
+    background: url("../images/cards.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 16px;
+    color: white;
+}
+
+h1 {
+    font-family: 'Allerta', Helvetica, Arial, sans-serif;
+    font-size: 2.813em;
+    color: white;
+    display: inline-block;
+}
+
+h2 {
+    font-family: 'Crimson Text', Georgia, Times, serif;
+    margin-top: -3px;
+    font-size: 1.875em;
+    text-align: center;
+    color: white;
+}
+
+
+.red {
+    color: red;
+    display: inline-block;
+}
+
+.container {
+    text-align: center;
+}
+
+.space1 { 
+    height: 20px; width: 100%; 
+    font-size: 0; margin: 0; padding: 0; border: 0; 
+    display: block; 
+}
+
+.space2 { 
+    height: 70px; width: 100%; 
+    font-size: 0; margin: 0; padding: 0; border: 0; 
+    display: block; 
+}
+
+.space3 { 
+    height: 100px; width: 100%; 
+    font-size: 0; margin: 0; padding: 0; border: 0; 
+    display: block; 
+}
+
+.space4 {
+    height: 50px; width: 100%; 
+    font-size: 0; margin: 0; padding: 0; border: 0; 
+    display: block; 
+}
+
+.row {
+    text-align: center;
+    width: 100%
+}
+
+.form-control {
+    background: rgba(70,70,70,0.8);
+    font-family: 'Crimson Text', Georgia, Times, serif;
+    border-radius: 5px;
+    width: 11.5em;
+    height: 45px;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    border:none;
+}
+
+#shuffle {
+    background: rgba(255,0,0,0.7);
+    border: none;
+    outline: none;
+    color: white;
+}      
+
+form {
+    display: inline-block;
+}
+
+.footer { 
+    height: 150px; width: 100%; 
+    font-size: 0; margin: 0; padding: 0; border: 0; 
+    display: block; 
+}

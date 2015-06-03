@@ -1,0 +1,33 @@
+<div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7BPgX52fLXAhspR6IJw3i4nL3FmEBSWI"></script>
+  	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+	<div class="container"><h1><div class="red">C</div>how<div class="red">S</div>huffle</h1></div>
+	<div class = "space1"></div>
+	<h2>Fill in whatever you like.</h2>
+	<div class = "space4"></div>
+	<div class="row">
+		<div class="col-md-12">
+			<form class="form-search" id="fForm">
+    			<input type="text" id="food" class="form-control" placeholder="Type of Food" autofocus>
+  		</form>
+			<div class = "space2"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<form class="form-search" id="dForm">
+    			<input type="text" id="distance" class="form-control" placeholder="Max Travel Distance (mi)">
+  		</form>
+			<div class = "space3"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+  			<button type="button" class="btn btn-default btn-lg" id="shuffle" ng-click = "shuffleClick()">
+  				<span class="glyphicon glyphicon-refresh">SHUFFLE</span>
+  			</button>
+		</div>
+	</div>
+	<div class="footer"></div>
+	<div id="map-canvas"></div>
+</div>

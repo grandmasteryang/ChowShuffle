@@ -1,0 +1,33 @@
+<div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7BPgX52fLXAhspR6IJw3i4nL3FmEBSWI"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+	<a target="_blank" class="name"><div class="container">
+		<h1>
+			{{user[count].name}}
+			<span class="glyphicon glyphicon-arrow-right" id="right"></span>
+		</h1></div></a>
+	<div class = "space1"></div>
+	<h2>{{user[count].vicinity}}</h2>
+	<div class = "space1"></div>
+	<div class="row">
+		<div class="col-md-2 col-sm-1 col-xs-1"></div>
+		<div class="col-md-8" id="map-canvas"></div>
+	</div>
+	<div class = "space1"></div>
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-4 col-sm-4 col-xs-6"><h2>Price: {{money}}</h2></div>
+		<div class="col-md-4 col-sm-4 col-xs-6"><h2>Rating: {{rating}}</h2></div>
+	</div>
+	<div class = "space1"></div>
+  	<div class="row">
+		<div class="col-md-12">
+			<button type="button" class="btn btn-default btn-lg" id="reshuffle" ng-click="reShuffleClick()">
+				<span class="glyphicon glyphicon-refresh">RESHUFFLE</span>
+			</button>
+		</div>
+	</div>
+	<div class = "space2"></div>
+	<div id="myContact">{{contact}}</div>
+	<div class="footer"></div>
+</div>
