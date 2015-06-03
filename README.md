@@ -1,2 +1,2 @@
 # ChowShuffle
-Choose a Restaurant. Simple.
+www.chowshuffle.com
